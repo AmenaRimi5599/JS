@@ -14,6 +14,6 @@ function decrement() {
     count = count - 1;
     document.getElementById("count-el").innerText = count;
   } else {
-    document.getElementById("count-el").innerText = "sorry";
+    document.getElementById("count-el").innerText = "opps !";
   }
 }
