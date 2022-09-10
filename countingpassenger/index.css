@@ -39,7 +39,14 @@ button {
   background: rgb(139, 0, 0);
 }
 #save-btn {
-  background: darkgreen;
+  background: rgb(119, 208, 119);
+}
+
+#save-btn:hover {
+  background-color: rgb(122, 151, 122);
+  text-align: center;
+  color: black;
+  border: 2px solid black;
 }
 #increment-btn:hover {
   background-color: rgba(79, 69, 191, 0.5);

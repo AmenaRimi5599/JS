@@ -2,18 +2,29 @@
 // function increment() {
 //   console.log("button was clicked!!");
 // }
-let count = 0;
+// let count = 0;
 
-function increment() {
-  count = count + 1;
-  document.getElementById("count-el").innerText = count;
-}
+// function increment() {
+//   count = count + 1;
+//   document.getElementById("count-el").innerText = count;
+// }
 
-function decrement() {
-  if (count != 0) {
-    count = count - 1;
-    document.getElementById("count-el").innerText = count;
-  } else {
-    document.getElementById("count-el").innerText = "opps !";
-  }
-}
+// function decrement() {
+//   if (count != 0) {
+//     count = count - 1;
+//     document.getElementById("count-el").innerText = count;
+//   } else {
+//     document.getElementById("count-el").innerText = "opps !";
+//   }
+// }
+
+// function save() {
+//   console.log(count);
+// }
+
+let welcomeEl = document.getElementById("welcome-el");
+let username = "Rimi";
+let greeting = "Welcome Back ! ";
+
+welcomeEl.innerText = greeting + username;
+welcomeEl.innerText += "👋";
