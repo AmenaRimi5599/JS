@@ -20,6 +20,8 @@ function decrement() {
 function save() {
   let countNum = count + " - ";
   saveEl.textContent += countNum;
+  countEl.textContent = 0;
+  count = 0;
   console.log(count);
 }
 
